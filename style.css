@@ -1,0 +1,29 @@
+body {
+    background-color: while;
+}
+
+p {
+    color: red;
+    font-size: 50px;
+    background-color: green;
+}
+
+.fl {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.fl div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 30px;
+}
+
+.fl .d {
+    height: 300px;
+}
